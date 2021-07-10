@@ -18,26 +18,6 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="eb851" class="javax.swing.JButton" binding="button9">
-        <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font name="Arial" size="48" style="1"/>
-          <horizontalTextPosition value="0"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="d5c62" class="javax.swing.JButton" binding="button2">
-        <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font name="Arial" size="48" style="1"/>
-          <horizontalTextPosition value="0"/>
-          <text value=""/>
-        </properties>
-      </component>
       <component id="f29e9" class="javax.swing.JButton" binding="button6">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -58,9 +38,9 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="52056" class="javax.swing.JButton" binding="button5">
+      <component id="cb50" class="javax.swing.JButton" binding="button1">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Arial" size="48" style="1"/>
@@ -68,9 +48,19 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="cb50" class="javax.swing.JButton" binding="button1">
+      <component id="ac634" class="javax.swing.JButton" binding="button8">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="48" style="1"/>
+          <horizontalTextPosition value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d5c62" class="javax.swing.JButton" binding="button2">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Arial" size="48" style="1"/>
@@ -89,9 +79,19 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="ac634" class="javax.swing.JButton" binding="button8">
+      <component id="eb851" class="javax.swing.JButton" binding="button9">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="48" style="1"/>
+          <horizontalTextPosition value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="52056" class="javax.swing.JButton" binding="button5">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Arial" size="48" style="1"/>
