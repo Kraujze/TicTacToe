@@ -58,9 +58,9 @@
           <text value="X"/>
         </properties>
       </component>
-      <component id="ac634" class="javax.swing.JButton" binding="button8">
+      <component id="d5c62" class="javax.swing.JButton" binding="button2">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Arial" size="48" style="1"/>
@@ -78,6 +78,16 @@
           <text value="O"/>
         </properties>
       </component>
+      <component id="ac634" class="javax.swing.JButton" binding="button8">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="48" style="1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="O"/>
+        </properties>
+      </component>
       <component id="f29e9" class="javax.swing.JButton" binding="button6">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -86,16 +96,6 @@
           <font name="Arial" size="48" style="1"/>
           <horizontalTextPosition value="0"/>
           <text value="X"/>
-        </properties>
-      </component>
-      <component id="d5c62" class="javax.swing.JButton" binding="button2">
-        <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font name="Arial" size="48" style="1"/>
-          <horizontalTextPosition value="0"/>
-          <text value="O"/>
         </properties>
       </component>
     </children>
