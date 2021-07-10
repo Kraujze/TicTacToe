@@ -4,7 +4,9 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class gameform extends JFrame {
+    private int vanya = 0;
     private JButton button1;
     private JButton button2;
     private JButton button3;
@@ -29,7 +31,39 @@ public class gameform extends JFrame {
         ActionListener listener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                int odd = vanya % 2;
+                String buttonCode = e.getActionCommand();
+                String value = (odd == 0) ? "O" : "X";
+                switch (buttonCode) {
+                    case "11":
+                        button1.setText(value);
+                        break;
+                    case "12":
+                        button2.setText(value);
+                        break;
+                    case "13":
+                        button3.setText(value);
+                        break;
+                    case "21":
+                        button4.setText(value);
+                        break;
+                    case "22":
+                        button5.setText(value);
+                        break;
+                    case "23":
+                        button6.setText(value);
+                        break;
+                    case "31":
+                        button7.setText(value);
+                        break;
+                    case "32":
+                        button8.setText(value);
+                        break;
+                    case "33":
+                        button9.setText(value);
+                        break;
+                }
+                vanya++;
             }
         };
 
