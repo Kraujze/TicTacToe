@@ -32,7 +32,7 @@ public class gameform extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String cellCode = e.getActionCommand();
-                game.doMove(cellCode);
+                if (!game.isExist(cellCode)) { game.doMove(cellCode); }
             }
         };
         button3.addActionListener(listener);
