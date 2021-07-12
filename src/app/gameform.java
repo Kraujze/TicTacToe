@@ -6,67 +6,35 @@ import java.awt.event.ActionListener;
 
 
 public class gameform extends JFrame {
-    private int vanya = 0;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
-    private JButton button5;
-    private JButton button6;
-    private JButton button7;
-    private JButton button8;
-    private JButton button9;
+    protected JButton button1;
+    protected JButton button2;
+    protected JButton button3;
+    protected JButton button4;
+    protected JButton button5;
+    protected JButton button6;
+    protected JButton button7;
+    protected JButton button8;
+    protected JButton button9;
     private JPanel panel1;
-
-    public static void main(String[] args) throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        new gameform();
+    protected final JButton[][] buttonArr = new JButton[][]{
+            {button1, button2, button3},
+            {button4, button5, button6},
+            {button7, button8, button9}
+    };
+    public JButton[][] getArr() {
+        return buttonArr;
     }
-
-    public gameform() throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        setContentPane(panel1);
-        setVisible(true);
-        setSize(400,400);
+    public gameform(int width, int height) throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-
+        setContentPane(panel1); setVisible(true); setSize(width,height);
+        game game = new game(buttonArr);
         ActionListener listener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int odd = vanya % 2;
-                String buttonCode = e.getActionCommand();
-                String value = (odd == 0) ? "O" : "X";
-                switch (buttonCode) {
-                    case "11":
-                        button1.setText(value);
-                        break;
-                    case "12":
-                        button2.setText(value);
-                        break;
-                    case "13":
-                        button3.setText(value);
-                        break;
-                    case "21":
-                        button4.setText(value);
-                        break;
-                    case "22":
-                        button5.setText(value);
-                        break;
-                    case "23":
-                        button6.setText(value);
-                        break;
-                    case "31":
-                        button7.setText(value);
-                        break;
-                    case "32":
-                        button8.setText(value);
-                        break;
-                    case "33":
-                        button9.setText(value);
-                        break;
-                }
-                vanya++;
+                String cellCode = e.getActionCommand();
+                game.doMove(cellCode);
             }
         };
-
         button3.addActionListener(listener);
         button6.addActionListener(listener);
         button7.addActionListener(listener);
