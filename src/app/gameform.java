@@ -24,9 +24,9 @@ public class gameform extends JFrame {
     public JButton[][] getArr() {
         return buttonArr;
     }
-    public gameform(int width, int height) throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+    public gameform(int width, int height, String title) throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        setContentPane(panel1); setVisible(true); setSize(width,height);
+        setContentPane(panel1); setVisible(true); setSize(width,height); setTitle(title); setDefaultCloseOperation(EXIT_ON_CLOSE);
         game game = new game(buttonArr);
         ActionListener listener = new ActionListener() {
             @Override

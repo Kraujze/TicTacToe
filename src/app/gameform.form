@@ -17,6 +17,8 @@
         </constraints>
         <properties>
           <actionCommand value="02"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -32,6 +34,8 @@
         </constraints>
         <properties>
           <actionCommand value="12"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -47,6 +51,8 @@
         </constraints>
         <properties>
           <actionCommand value="20"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -62,6 +68,8 @@
         </constraints>
         <properties>
           <actionCommand value="21"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -77,6 +85,8 @@
         </constraints>
         <properties>
           <actionCommand value="01"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -92,6 +102,8 @@
         </constraints>
         <properties>
           <actionCommand value="10"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -108,6 +120,8 @@
         </constraints>
         <properties>
           <actionCommand value="22"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -123,6 +137,8 @@
         </constraints>
         <properties>
           <actionCommand value="11"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
@@ -138,6 +154,8 @@
         </constraints>
         <properties>
           <actionCommand value="00"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <font name="Arial" size="48" style="1"/>
           <foreground color="-16777216"/>
           <horizontalTextPosition value="0"/>
